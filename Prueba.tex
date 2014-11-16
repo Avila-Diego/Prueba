@@ -1,0 +1,155 @@
+%
+% Curriculum Vitae LaTeX - Pablo López Cienfuegos
+%
+% Copyright (c) 2011, Pablo López Cienfuegos 
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see .
+%
+
+\documentclass	[10pt,leterpaper,oneside]{article}
+\usepackage	[utf8x]{inputenc}
+\usepackage	[activeacute,spanish]{babel}
+\usepackage	{amsmath}
+\usepackage	{amssymb}
+\usepackage	{graphicx}
+\usepackage	{color}
+\usepackage	{textpos}
+\usepackage	[T1]{fontenc}
+%\usepackage	{dejavu}	%DejaVuSerif-TLF, DejaVuSans-TLF
+%\usepackage	{palatino}	%ppl
+%\usepackage    {charter}
+%\usepackage	{chancery}
+%\usepackage	{helvet}	%phv
+%\usepackage	{avant}		%pag
+\usepackage[pdftex,
+            pdfauthor={Diego Fernando Avila Ibañez},
+            pdftitle={Curriculum Vitae - Diego Avila},
+            pdfsubject={Curriculum Vitae - Diego Avila},
+            pdfkeywords={Curriculum Vitae, Diego Avila},
+            pdfproducer={LaTeX},
+            pdfcreator={pdflatex}]{hyperref}
+
+\pagestyle{empty}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\textwidth}{16cm}		% Anchura del texto
+\setlength{\textheight}{24cm}		% Altura del texto
+\setlength{\topmargin}{-1cm}
+\setlength{\headsep}{1cm}
+\setlength{\parskip}{0mm}		% Separación entre párrafos
+\setlength{\parindent}{0mm}		% Tamaño del sangrado
+\setlength{\tabcolsep}{0mm}		% Tamaño cellpadding
+\definecolor{gris}{gray}{0.8}
+\definecolor{azul}{rgb}{0.0,0.0,1.0}
+\newcommand{\seccion}[1]{\vspace*{3mm}\section*{#1}\vspace*{-3mm}}
+\renewcommand{\baselinestretch}{1.1}	% Interlineado.
+\renewcommand{\Huge}{\fontfamily{DejaVuSerif-TLF}\fontsize{25}{25}\selectfont}		% Título
+\renewcommand{\Large}{\fontfamily{pag}\fontseries{b}\fontsize{13}{10}\selectfont}	% Sección
+\renewcommand{\normalsize}{\fontfamily{DejaVuSans-TLF}\fontsize{9}{12}\selectfont}	% Normal
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENTO %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% PORTADA %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+
+%\begin{minipage}{14cm}
+%\color{gris}
+%\begin{center}
+%\Huge
+%\textbf{Diego Avila Ibañez }
+%\end{center}
+%\end{minipage}
+
+\vspace*{-9.7mm}
+\hspace*{-2mm}
+\begin{minipage}{14cm}
+\color{black}
+\begin{center}
+\Huge\textbf{Diego Fernando Avila Ibañez}
+\end{center}
+\end{minipage}
+
+\end{center}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECCIÓN %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\seccion{Datos Personales:}
+\vspace*{1mm}
+\begin{tabular}{p{50mm}l}
+Identificación: & C.C. 1 015 431 601\\
+Fecha de Nacimiento: & 8 de junio de 1992\\
+%Domicilio Actual: & C/ Abundio Gascón 7, 2ºB - 33011 Oviedo (Asturias)\\
+Teléfono de Contacto: & 310 82 54\\
+Celular de Contacto: & 320 224 80 61\\
+Correo Electrónico: & \color{azul}dfavilai@unal.edu.co\color{black}
+\end{tabular}
+\vspace*{2mm}
+
+\begin{textblock*}{1cm}(14cm,-3.1cm)
+\includegraphics[scale=0.2]{Foto.jpg}
+\end{textblock*}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECCIÓN %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\seccion{ESTUDIOS SECUNDARIOS:}
+
+\begin{itemize}
+  \item Colegio Técnico República de Guatemala I.E.D., \textbf{Bachiller Comercial}, Bogotá, 2009.\\
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECCIÓN %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\seccion{Idiomas:}
+%\textbf{Inglés:} Nivel alto en lectura, nivel medio hablado y escrito.\\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECCIÓN %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\seccion{ESTUDIOS COMPLEMENTARIOS:}
+\vspace*{1mm}
+\begin{itemize}
+  \item \textbf{Gestión Contable o Financiera}, SENA, Centro de Servicios financieros Bogotá, dos años, noviembre 2009.\\
+  
+  \item \textbf{ LINUX:Sistema operativo comando y utilidades}, SENA virtual, 40 horas, abril 2011.\\
+  
+\end{itemize}
+\vspace*{2mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECCIÓN %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\seccion{CONOCIMIENTOS DE INFORMÁTICA:}
+\textbf{Conomientos intermedios en LiNUX,en Windows, Ofimática e Internet.}\\
+\textbf{Software Económicos} Nociones y manejo de diferentes programas como lo son: \textbf{RATS, STATA, GRETL y R}.\\
+\textbf{MANEJADOR DE BASES DE DATOS} como lo son \textbf{Acces y SPSS}.\\
+\textbf{} .\\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECCIÓN %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\seccion{Otros Datos de Interés:}
+Acostumbrado a la autoformación y a hablar en público; ponente ocasional en conferencias
+relacionadas con Software Libre, criptografía, o dispositivos móviles.\\
+Carnet de conducir A2 y B; vehículo propio.\\
+Total disponibilidad para viajar. \\[1cm]
+Última actualización del Currículum: 26 de Enero del 2012.\\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECCIÓN %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
